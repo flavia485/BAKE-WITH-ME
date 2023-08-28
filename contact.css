@@ -101,62 +101,8 @@ form button:hover {
 .footer {
     background-color: #6e3a6c;
     color: #fff;
-    padding: 40px 0;
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
-}
-
-.footer-column {
-    flex-basis: calc(33.33% - 40px);
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
-
-.footer h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    flex-wrap: wrap;
-}
-
-address p, .social-icon, .newsletter-input {
-    margin-bottom: 10px;
-    font-size: 14px;
-}
-
-.social-media {
-    list-style: none;
-    padding: 0;
-}
-
-.social-icon {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #555;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.newsletter-form {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-}
-
-.newsletter-input {
-    flex-grow: 1;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    margin-bottom: 10px;
-}
-
-.newsletter-button {
-    border-radius: 0 5px 5px 0;
-    padding: 8px 20px;
-    background-color: #555;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-}
+  }
